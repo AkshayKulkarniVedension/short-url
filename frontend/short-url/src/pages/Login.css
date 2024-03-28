@@ -1,0 +1,65 @@
+/* Add a Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f0f2f5; /* Light grey background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  margin: 0;
+}
+
+.login-container {
+  max-width: 500px;
+  background-color: #fff; /* White background */
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form label {
+  float: left;
+  margin-bottom: 10px;
+  font-weight: 500; /* Slightly bolder labels */
+}
+
+.login-form input {
+  float: right;
+  margin-bottom: 20px;
+  padding: 12px 10px;
+  border: 1px solid #ccc; /* Light grey border */
+  border-radius: 4px;
+  font-size: 16px; /* Larger font size */
+}
+
+.login-container input:focus {
+  border-color: #007bff; /* Blue border on focus */
+  outline: none;
+}
+
+.login-container .error {
+  color: #d93025; /* Slightly darker red for errors */
+  margin-bottom: 20px;
+}
+
+.login-container button {
+  padding: 10px;
+  background-color: #007bff; /* Blue background */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px; /* Larger font size */
+  font-weight: 500;
+}
+
+.login-container button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
